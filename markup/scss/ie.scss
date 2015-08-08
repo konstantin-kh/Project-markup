@@ -1,0 +1,41 @@
+.post-item .img-holder:after,
+.box-frame:after,
+.post-item .img-frame:after{display:none;}
+#nav > ul > li{margin:0 1.4% 7px;}
+.steps .heading{max-width:200px;}
+.map .map-hover li{
+	&#area1{
+		.description-box{
+			.line{left:-55px;}
+		}
+	}
+	&#area2{
+		.description-box{
+			.line{left:187px;}
+		}
+	}
+	&#area3{
+		.description-box{
+			.line{right:-117px;}
+		}
+	}
+}
+.search-form{
+	input[type="text"],
+	input[type="search"]{
+		margin-right:5px;
+	}
+}
+.search-form,
+.post-password-form,
+.comment-form{
+	input[type="password"]{
+		padding-top:5px;
+		padding-bottom:10px;
+	}
+}
+.item-country a.hover{
+	.title{
+		 -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+}
